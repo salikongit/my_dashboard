@@ -1,0 +1,139 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+/* Custom CSS for Student Dashboard */
+nav {
+    background-color:  #222831;
+
+}
+.navbar-brand img{
+
+    width: 200px;
+    height: 80px;
+    margin-left: 20px;
+    display: inline;
+    align-items: center;
+ 
+
+}
+
+.navbar-toggler .navbar-toggler-icon{
+   
+    border-radius: 20px;
+    background-color: #ddd;
+}
+
+
+
+body{
+    
+    min-height: 100vh;
+    justify-content: center;
+    
+    
+}
+
+.card {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.list-group-item {
+    cursor: pointer;
+    list-style: none;
+}
+
+ @media (min-width: 768px) {
+    .col-md-3 {
+        order: -1;
+        
+    }
+} 
+
+ul{
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
+ 
+    
+
+}
+li{
+    list-style: none;
+    align-items: center;
+ 
+
+}
+.sidebar li{
+    font-size: 24px;
+    padding: 10px 10px  ;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+ 
+}
+.sidebar li:hover{
+    transition: 0.5s;
+    background: rgb(13, 126, 100);
+    padding: 20px;
+    border-radius: 20px;
+    overflow: none;
+    color: rgb(52, 146, 228);
+    cursor: pointer;
+    
+
+}
+
+
+.sidebar {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #222831;
+    color: aliceblue;
+    width: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+    outline: none;
+    align-items: baseline;
+ 
+    
+    
+}
+
+
+
+/* Aesthetic CSS for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    padding-top: 100px; 
+}
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
